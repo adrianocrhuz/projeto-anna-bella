@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../imagens/fundo.png");
+    margin: 10px 0px 0px 10px;
+}
+header img {
+    min-width: 300px;
+    max-width: 900px;
+}
+img {
+    width: 100%;
+}
+nav {
+    background-color: rgba(128, 128, 128, 0.384);
+    font-weight: bold;
+    max-width: 900px;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(52, 52, 92, 0.74);
+    margin-left: 10px;
+}
+main {
+    max-width: 900px;
+    margin-bottom: 30px;
+    background-color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main h2 {
+    color: gray;
+    font-size: 1.5em;
+    padding: 10px;
+}
+main p {
+    text-align: justify;
+    padding: 10px;
+}
+#foto1 {
+    max-width: 100%;
+    background-color: rgba(128, 128, 128, 0.384);
+    padding: 10px;
+    background-position: center center;
+    
+}
+#foto1 > img {
+    
+    display: block;
+}
+section {
+    max-width: 900px;
+    min-width: 300px;
+    height: 400px;
+    margin-bottom: 10%;  
+}
+section > img {
+    max-width: 900px;
+    min-width: 300px;
+    
+}
+section.imagem {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 70px;
+  
+}
+
+section.normal {
+        background-image: url("../imagens/fundo.png");
+        color: black;
+        height: 50px;
+
+}
+section:nth-of-type(2) {
+    background-image: url("../imagens/foto1.png");
+}
+section:nth-of-type(4) {
+    background-image: url("../imagens/foto2.png");
+}
+section:nth-of-type(6) {
+    background-image: url("../imagens/foto3.png");
+}
+section > p {
+    background-color: rgba(0, 0, 0, 0.034);
+    color: black;
+}
+footer {
+    max-width: 900px;
+    text-align: center;
+    font-weight: bold; 
+    padding: 20px;
+}
