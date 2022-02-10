@@ -90,7 +90,7 @@ section:nth-of-type(6) {
     background-image: url("../imagens/foto3.png");
 }
 section > p {
-    background-color: rgba(0, 0, 0, 0.034);
+    background-color: rgba(0, 0, 0, 0.030);
     color: black;
 }
 footer {
